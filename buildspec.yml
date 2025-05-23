@@ -1,0 +1,11 @@
+echo "version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo 'Building the project'
+      - ls -la
+
+artifacts:
+  files:
+    - '**/*'" > buildspec.yml
